@@ -1,0 +1,8 @@
+---
+- id: buf-check-lint
+  name: 'buf check lint'
+  entry: 'run-buf-check-lint.sh'
+  language: 'script'
+  files: '\.proto$'
+  pass_filenames: false
+  description: 'Runs `buf check lint`'
