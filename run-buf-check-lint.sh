@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "$@"
+files=$(echo "$@" | tr ' ' ',')
+buf check lint --file ${files}

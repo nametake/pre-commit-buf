@@ -4,5 +4,5 @@
   entry: 'run-buf-check-lint.sh'
   language: 'script'
   files: '\.proto$'
-  pass_filenames: false
+  pass_filenames: true
   description: 'Runs `buf check lint`'
