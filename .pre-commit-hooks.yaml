@@ -6,3 +6,10 @@
   files: '\.proto$'
   pass_filenames: true
   description: 'Runs `buf check lint`'
+- id: buf-check-breaking
+  name: 'buf check breaking'
+  entry: 'run-buf-check-breaking.sh'
+  language: 'script'
+  files: '\.proto$'
+  pass_filenames: true
+  description: 'Runs `buf check breaking`'
