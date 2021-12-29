@@ -8,7 +8,7 @@
 - repo: git@github.com:nametake/pre-commit-buf.git
   rev: v1.0.0
   hooks:
-    - id: buf-check-lint
-    - id: buf-check-breaking
+    - id: buf-lint
+    - id: buf-breaking
       args: [.git#branch=master] # required --against-input arg
 ```
