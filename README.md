@@ -6,7 +6,7 @@
 
 ```yaml
 - repo: git@github.com:nametake/pre-commit-buf.git
-  rev: v1.0.0
+  rev: v2.0.0
   hooks:
     - id: buf-lint
     - id: buf-breaking
